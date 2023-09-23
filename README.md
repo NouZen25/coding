@@ -1,1 +1,1 @@
-# coding
+# website statis
