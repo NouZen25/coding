@@ -5,8 +5,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voutre Logarithme</title>
     <link rel="icon" type="image/x-icon" href="https://raw.githubusercontent.com/NouZen25/webstatis/main/Logo-Varlog.ico">
-    <link rel="stylesheet" href="style1.css">
 </head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    }
+
+    body{
+        font-family: sans-serif;
+        background-color: #ffffff;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        background-color: black;
+    }
+
+    .navbar .logo a{
+        margin: 15px;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    .navbar-nav{
+        margin-right: 15px;
+    }
+
+    .navbar-nav a{
+        margin: 15px;
+        font-size: 25px;
+        color: #ffffff;
+    }
+
+    .navbar a{
+        color: #ffffff;
+    }
+
+    .home{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 30px;
+    }
+
+    .home .paragraf{
+        width: 70%;
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    .home .paragraf ul{
+        margin-left: 2rem;
+    }
+
+    .home .join button{
+        padding: 15px 45px 15px 45px;
+        font-size: 30px;
+        margin-top: 2rem;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: #ffffff;
+    }
+
+    .about{
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: black;
+    }
+
+    .about .paragraf span{
+        color: grey;
+    }
+
+    .about .paragraf{
+        width: 60%;
+        text-align: justify;
+        font-size: 30px;
+        color: #ffffff;
+    }
+
+    .about img{
+        margin-left: 2rem;
+        margin-right: 4rem;
+        width: 325px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 30px;
+    }
+
+    .contact{
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 20px;
+        background-color: #ffffff;
+    }
+
+    .contact .paragraf{
+        width: 60%;
+        font-size: 30px;
+        text-align: justify;
+        color: black;
+    }
+
+    .contact .email button{
+        font-size: 30px;
+        padding: 15px 45px 15px 45px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: #ffffff;
+        margin-left: 2rem;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        background-color: black;
+        min-height: 10vh;
+    }
+
+    .footer .watermark{
+        color: #ffffff;
+        margin-left: 15px;
+    }
+
+    .footer a{
+        color: #ffffff;
+        font-size: 30px;
+        margin-left: 3rem;
+    }
+
+    .footer .footer-help{
+        margin-right: 15px;
+    }
+</style>
 <body>
     <header>
         <nav>
