@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+}
+
+#judul {
+  background-color: orangered;
+  color: aliceblue;
+  font-size: 18px;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 50px;
+  border-bottom: 5px dashed #fff;
+}
+
+.media img {
+  display: block;
+  margin: 0 auto;
+  width: 360px;
+  height: 240px;
+  margin-bottom: 50px;
+}
+
+.content {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.content .opening p {
+  margin-bottom: 30px;
+}
+
+.content img {
+  width: 208px;
+  height: 314px;
+  display: block;
+  margin: 0 auto;
+}
+
+.content div h3,
+.content div p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#form {
+  padding: 20px;
+  background-color: orangered;
+  color: aliceblue;
+  border: 3px solid red;
+}
