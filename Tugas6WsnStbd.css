@@ -1,0 +1,122 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    background-image: url(https://image.made-in-china.com/202f0j00CzkURSPssfgp/Modern-Waterproof-Wallpaper-3D-High-quality-for-Home-Decor.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    outline-style: solid;
+    outline-color: lightskyblue;
+  }
+
+  .header h1 {
+    background-color: #000;
+    color: lightskyblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  .judul {
+    padding-left: 5px;
+  }
+
+  .header ul li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .container .header ul {
+    margin-left: -40px;
+  }
+  
+  .header a {
+    text-decoration: none;
+    color: lightskyblue;
+    padding: 3px;
+  }
+  
+  .header a:hover {
+    background-color: lightblue;
+    color: #fff;
+  }
+  
+  .hero {
+    height: 380px;
+    background-image: url(https://cdn.myanimelist.net/images/anime/1462/125397.jpg);
+    background-size: 300px 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline-style: solid;
+    outline-color: lightskyblue;
+    outline-width: 3px;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  .content .penulis {
+    margin-top: -15px;
+    font-size: 16px;
+  }
+  
+  .content .penulis a {
+    text-decoration: none;
+    color: lightskyblue;
+  }
+  
+  .content p {
+    text-align: justify;
+  }
+  
+  .tabelheading h2 {
+    padding: 15px;
+    margin-top: -20px;
+  }
+  
+  .tabeljenis {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 780px;
+    height: 100px;
+    text-align: justify;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  
+  td {
+    text-align: justify;
+    padding: 15px;
+  }
+  
+  th {
+    text-align: center;
+  }
+  
+  .Contact {
+    text-align: center;
+
+  }
+
+  .footer {
+    background-color: #000;
+    text-align: center;
+  }
+  
+  .footer p {
+    color: lightskyblue;
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+  
+  .footer .besar {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
